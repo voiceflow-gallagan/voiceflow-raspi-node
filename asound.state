@@ -1,0 +1,36 @@
+state.sndrpigooglevoi {
+	control.1 {
+		iface MIXER
+		name Micro
+		value.0 129
+		value.1 129
+		comment {
+			access 'read write user'
+			type INTEGER
+			count 2
+			range '0 - 255'
+			tlv '0000000100000008fffffc1800000017'
+			dbmin -1000
+			dbmax 4865
+			dbvalue.0 1967
+			dbvalue.1 1967
+		}
+	}
+	control.2 {
+		iface MIXER
+		name Master
+		value.0 219
+		value.1 219
+		comment {
+			access 'read write user'
+			type INTEGER
+			count 2
+			range '0 - 255'
+			tlv '0000000100000008ffffec1400000014'
+			dbmin -5100
+			dbmax 0
+			dbvalue.0 -720
+			dbvalue.1 -720
+		}
+	}
+}

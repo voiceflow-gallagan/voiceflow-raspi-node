@@ -102,3 +102,10 @@ dist
 
 # TernJS port file
 .tern-port
+
+# tmp dir for audio
+tmp
+package-lock.json
+package-lock.json
+model/.DS_Store
+.DS_Store
